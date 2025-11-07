@@ -1,0 +1,204 @@
+{
+    "editor.minimap.enabled": false, // ミニマップを非表示にする
+    "editor.renderControlCharacters": true, // 制御文字を表示する
+    "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定
+    "breadcrumbs.enabled": true, // ファイルの末尾を改行で終わらせる
+    "extensions.verifySignature": false,
+    "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true, // フォントサイズを変更
+    "editor.renderLineHighlight": "all", // 選択行の行番号をハイライトする
+    "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅するように
+    "editor.cursorSmoothCaretAnimation": "on", // カーソルの点滅をアニメーション表示する
+    "editor.cursorStyle": "block", // カーソルの外観をブロックに変更
+    "files.autoGuessEncoding": true, // 画面全体の表示サイズはデフォルト
+    "editor.bracketPairColorization.enabled": true,
+    "editor.multiCursorModifier": "alt", // 複数カーソルの追加は Ctrl キーを使用
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.iconTheme": "vscode-icons",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.guides.bracketPairs": true,
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        }
+    },
+    "workbench.tree.indent": 20,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "errorLens.excludeBySource": [
+        "ts(1005)"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.eol": "\n",
+    "[bat]": {
+        "files.eol": "\r\n"
+    },
+    "workbench.startupEditor": "none",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "ㅤ": true
+    },
+    "trailing-spaces.includeEmptyLines": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.codeActionsOnSave": {
+    },
+    "editor.unicodeHighlight.includeComments": true,
+    "workbench.colorCustomizations": {
+        "[Visual Studio Dark][Default Dark+]": {
+            "tab.activeBorder": "#0F0"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "extensions.confirmedUriHandlerExtensionIds": [
+        "ms-dotnettools.dotnet-interactive-vscode",
+        "ms-dotnettools.vscode-dotnet-pack"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "sonarlint.rules": {
+        "javascript:S6544": {
+            "level": "off"
+        },
+        "typescript:S3776": {
+            "level": "off"
+        },
+        "typescript:S6535": {
+            "level": "off"
+        },
+        "typescript:S6544": {
+            "level": "off"
+        },
+        "javascript:S6535": {
+            "level": "off"
+        },
+        "javascript:S3776": {
+            "level": "off"
+        },
+        "javascript:S2681": {
+            "level": "off"
+        },
+        "javascript:S1854": {
+            "level": "off"
+        },
+        "javascript:S2310": {
+            "level": "on"
+        },
+        "javascript:S6671": {
+            "level": "off"
+        },
+        "javascript:S6551": {
+            "level": "on"
+        }
+    },
+    "hexeditor.columnWidth": 25,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "terminal.integrated.enablePersistentSessions": false,
+    "editor.linkedEditing": true,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "workbench.editor.revealIfOpen": true,
+    "launch": {
+        "configurations": [
+        ]
+    },
+    "security.workspace.trust.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.focusAfterRun": "terminal",
+    "security.workspace.trust.banner": "never",
+    "terminal.integrated.automationProfile.windows": {
+        "path": "cmd"
+    },
+    "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "background.fullscreen": {
+        "images": ["file:///BackgroundPath"],
+        "opacity": 0.15,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    },
+    "background.enabled": true,
+    "vscode_custom_css.imports": [
+        "https://gist.githubusercontent.com/Crysta1221/24c724fd9f475ef473dcf2c3d551b8c3/raw/a9e6920e39d78eeb43ea448d36a8eb215bbbbf35/style.css"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontWeight": "normal",
+    "git.allowNoVerifyCommit": true,
+    "github.copilot.advanced": {
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.insertFinalNewline": true,
+    "vscode-pets.theme": "winter",
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petColor": "white",
+    "vscode-pets.petType": "dog",
+    "vscode-pets.throwBallWithMouse": true,
+    "workbench.colorTheme": "Moonlight",
+    "git.autofetch": true,
+    "discord.detailsEditing": "Editing {file_name} | {current_line} / {total_lines} Lines",
+    "discord.swapBigAndSmallImage": true,
+    "livePreview.notifyOnOpenLooseFile": false,
+    "workbench.editor.empty.hint": "hidden",
+    "editor.fontSize": 17,
+    "dotnet.formatting.organizeImportsOnFormat": true,
+    "remote.SSH.remotePlatform": {
+        "192.168.0.3": "linux"
+    },
+    "sonarlint.focusOnNewCode": true,
+    "sonarlint.automaticAnalysis": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.smoothScrolling": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
+}
