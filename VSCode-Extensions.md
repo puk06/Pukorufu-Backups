@@ -252,6 +252,13 @@ ID: GrapeCity.gc-excelviewer
 パブリッシャー: MESCIUS
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer
 
+名前: Hex Editor
+ID: ms-vscode.hexeditor
+説明: Allows viewing and editing files in a hex editor
+バージョン: 1.11.1
+パブリッシャー: Microsoft
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor
+
 # Git関連
 名前: Git History
 ID: donjayamanne.githistory
