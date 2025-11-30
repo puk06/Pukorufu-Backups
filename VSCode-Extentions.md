@@ -350,7 +350,6 @@ ID: ms-vscode.remote-explorer
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer
 
 # かわいい
-=
 名前: vscode-pets
 ID: tonybaloney.vscode-pets
 説明: Pets for your VS Code
