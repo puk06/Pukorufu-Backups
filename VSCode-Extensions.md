@@ -341,6 +341,13 @@ ID: ms-vscode-remote.remote-ssh-edit
 パブリッシャー: Microsoft
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit
 
+名前: Remote Explorer
+ID: ms-vscode.remote-explorer
+説明: View remote machines for SSH and Tunnels.
+バージョン: 0.5.0
+パブリッシャー: Microsoft
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer
+
 # Unity
 名前: Unity
 ID: visualstudiotoolsforunity.vstuc
