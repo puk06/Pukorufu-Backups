@@ -356,13 +356,6 @@ ID: visualstudiotoolsforunity.vstuc
 パブリッシャー: Microsoft
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=VisualStudioToolsForUnity.vstuc
 
-名前: Remote Explorer
-ID: ms-vscode.remote-explorer
-説明: View remote machines for SSH and Tunnels.
-バージョン: 0.5.0
-パブリッシャー: Microsoft
-VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer
-
 # かわいい
 名前: vscode-pets
 ID: tonybaloney.vscode-pets

@@ -1,5 +1,5 @@
 {
-    "editor.minimap.enabled": false, // ミニマップを非表示にする
+    "editor.minimap.enabled": true, // ミニマップを非表示にする
     "editor.renderControlCharacters": true, // 制御文字を表示する
     "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定
     "breadcrumbs.enabled": true, // ファイルの末尾を改行で終わらせる
