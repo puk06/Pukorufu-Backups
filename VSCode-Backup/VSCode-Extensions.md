@@ -256,7 +256,7 @@ VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ch
 
 名前: SonarQube for IDE
 ID: SonarSource.sonarlint-vscode
-説明: Advanced linter to detect & fix coding issues locally in JS/TS, Python, Java, , C/C++, Go, PHP.  Use with SonarQube (Server, Cloud) for optimal team performance.
+説明: Advanced linter to detect & fix coding issues locally in JS/TS, Python, Java, C#, C/C++, Go, PHP.  Use with SonarQube (Server, Cloud) for optimal team performance.
 バージョン: 4.35.1
 パブリッシャー: SonarSource
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode
