@@ -6,12 +6,12 @@
 # 言語
 
 ## C#
-名前: .NET Extension Pack
-ID: ms-dotnettools.vscode-dotnet-pack
-説明: The ultimate collection of extensions for working with .NET in VS Code!
-バージョン: 1.0.13
-パブリッシャー: Microsoft
-VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-pack
+名前: vscode-solution-explorer
+ID: fernandoescolar.vscode-solution-explorer
+説明: Visual Studio .sln file explorer for Visual Studio Code
+バージョン: 0.9.2
+パブリッシャー: Fernando Escolar
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer
 
 名前: .NET Install Tool
 ID: ms-dotnettools.vscode-dotnet-runtime
@@ -47,6 +47,13 @@ ID: ms-dotnettools.csdevkit
 バージョン: 1.80.7
 パブリッシャー: Microsoft
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
+
+名前: Avalonia for VSCode
+ID: AvaloniaTeam.vscode-avalonia
+説明: Avalonia support: XAML code completion, live XAML previewer, enhanced errors and warnings, code navigation, code formatting, and much more
+バージョン: 12.1.0
+パブリッシャー: Avalonia Team
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.vscode-avalonia
 
 ## JavaScript
 名前: ESLint
@@ -121,6 +128,30 @@ ID: bierner.markdown-preview-github-styles
 バージョン: 2.2.0
 パブリッシャー: Matt Bierner
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles
+
+## Vue
+名前: Vue (Official)
+ID: Vue.volar
+説明: Language Support for Vue
+バージョン: 3.3.1
+パブリッシャー: Vue
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=Vue.volar
+
+## Xaml
+名前: XAML Styler
+ID: dabbinavo.xamlstyler
+説明: XAML Styler is used to format XAML source code based on a set of styling rules. This tool can help you/your team maintain a better XAML coding style as well as a much better XAML readability.
+バージョン: 1.6.1
+パブリッシャー: dabbinavo
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=dabbinavo.xamlstyler
+
+## SQL
+名前: SQLite
+ID: alexcvzz.vscode-sqlite
+説明: Explore and query SQLite databases.
+バージョン: 0.14.1
+パブリッシャー: alexcvzz
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
 
 ## ウェブ開発
 名前: Live Preview
@@ -225,7 +256,7 @@ VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ch
 
 名前: SonarQube for IDE
 ID: SonarSource.sonarlint-vscode
-説明: Advanced linter to detect & fix coding issues locally in JS/TS, Python, Java, C#, C/C++, Go, PHP.  Use with SonarQube (Server, Cloud) for optimal team performance.
+説明: Advanced linter to detect & fix coding issues locally in JS/TS, Python, Java, , C/C++, Go, PHP.  Use with SonarQube (Server, Cloud) for optimal team performance.
 バージョン: 4.35.1
 パブリッシャー: SonarSource
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode
