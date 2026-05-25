@@ -45,14 +45,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: '20px'
+  inner_gap: '45px'
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '20px'
-    right: '20px'
-    bottom: '20px'
-    left: '20px'
+    top: '45px'
+    right: '45px'
+    bottom: '45px'
+    left: '45px'
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -138,7 +138,25 @@ window_rules:
       - window_process: { equals: 'zebar' }
 
       # Ignores EverythingToolBar
-      - window_title: { regex: 'EverythingToolbar*' }
+      - window_process: { regex: 'EverythingToolbar' }
+
+      # Ignores Avatar Explorer
+      - window_process: { equals: 'AvatarExplorer' }
+
+      # Ignores BongoCat
+      - window_title: { equals: 'BongoCat' }
+
+      # Ignores RealtimePPUR
+      - window_title: { equals: 'RealtimePPUR' }
+
+      # Ignores osu!
+      - window_title: { equals: 'osu!' }
+
+      # Ignores VIVE Hub
+      - window_title: { equals: 'VIVE Hub' }
+
+      # Ignores Nextcloud
+      - window_title: { equals: 'Nextcloud' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -225,7 +243,7 @@ keybindings:
 
   # Change focus from tiling windows -> floating -> fullscreen.
   # - commands: ['wm-cycle-focus']
-  #   bindings: ['alt+space'] FOR FLOW LAUNCHER
+  #   bindings: ['alt+space']
 
   # Change the focused window to be floating.
   - commands: ['toggle-floating --centered']
@@ -300,11 +318,11 @@ keybindings:
   - commands: ['move-workspace --direction left']
     bindings: ['alt+shift+a']
   - commands: ['move-workspace --direction right']
-    bindings: ['alt+shift+f']
-  - commands: ['move-workspace --direction up']
-    bindings: ['alt+shift+d']
-  - commands: ['move-workspace --direction down']
     bindings: ['alt+shift+s']
+  # - commands: ['move-workspace --direction up']
+  #   bindings: ['alt+shift+d']
+  # - commands: ['move-workspace --direction down']
+  #   bindings: ['alt+shift+s']
 
   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ['move --workspace 1', 'focus --workspace 1']
