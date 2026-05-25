@@ -8,7 +8,6 @@ bars:
     class_name: "yasb-bar"
     alignment:
       position: "top"
-      center: false
     blur_effect:
       enabled: true
       dark_mode: true
@@ -43,11 +42,6 @@ widgets:
     options:
       horizontal_label: "\udb81\udce1"
       vertical_label: "\udb81\udce2"
-      btn_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [1, 1]
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
     options:
@@ -58,16 +52,10 @@ widgets:
       active_empty_label: "{name}"
       focused_populated_label: "{name}"
       focused_empty_label: "{name}"
-      hide_empty_workspaces: true
       hide_if_offline: false
       monitor_exclusive: true
       enable_scroll_switching: true
       reverse_scroll_direction: false
-      btn_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [1, 1]
       app_icons:
         enabled_populated: false
         enabled_active: false
@@ -77,7 +65,6 @@ widgets:
         hide_label: false
         hide_duplicates: false
         hide_floating: false
-      animation: false
   home:
     type: "yasb.home.HomeWidget"
     options:
@@ -129,7 +116,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "<span>\ue0ba</span>{%H:%M}<span>\ue0bc</span>"
+      label: "<span>\ue0ba</span>{%A  %H:%M}<span>\ue0bc</span>"
       label_alt: "<span>\ue0ba</span>{%A, %d %B %Y}<span>\ue0bc</span>"
       callbacks:
         on_left: "toggle_calendar"
@@ -144,25 +131,13 @@ widgets:
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
-      label: "<span>\udb81\udd99</span> {temp}"
-      label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key: env
+      label: "<span>{icon}</span> {temp} RH {humidity}"
+      api_key: "{WEATHER_API_KEY}"
       update_interval: 120
       hide_decimal: true
       units: "metric"
-      location: env
-      show_alerts: true
-      callbacks:
-        on_left: "toggle_card"
-        on_middle: "toggle_label"
-      weather_card:
-        blur: True
-        round_corners: True
-        round_corners_type: "normal"
-        border_color: None
-        alignment: "right"
-        direction: "down"
-        icon_size: 32
+      location: "Shiga, JP"
+      show_alerts: false
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
@@ -192,7 +167,6 @@ widgets:
       uptime: True
       blur: False
       blur_background: True
-      animation_duration: 200 # Milisecond
       button_row: 3
       buttons:
         shutdown: ["\uf011", "Shut Down"]
