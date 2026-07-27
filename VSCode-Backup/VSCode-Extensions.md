@@ -184,12 +184,12 @@ ID: nidu.copy-json-path
 パブリッシャー: nidu
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=nidu.copy-json-path
 
-名前: TODO Highlight
-ID: wayou.vscode-todo-highlight
-説明: highlight TODOs, FIXMEs, and any keywords, annotations...
-バージョン: 1.0.5
-パブリッシャー: Wayou Liu
-VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
+名前: Better Todo Tree
+ID: FanaticPythoner.better-todo-tree
+説明: An independent, actively maintained fork of Todo Tree for VS Code: the familiar workflow, major new features, active fixes, benchmarked speedups of 696+ folds, modern compatibility.
+バージョン: 1.3.4
+パブリッシャー: FanaticPythoner
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=FanaticPythoner.better-todo-tree
 
 名前: Error Lens
 ID: usernamehw.errorlens
@@ -219,12 +219,12 @@ ID: esbenp.prettier-vscode
 パブリッシャー: Prettier (Legacy)
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
-名前: Discord Presence
-ID: icrawl.discord-vscode
-説明: Update your discord status with a rich presence.
-バージョン: 5.9.2
-パブリッシャー: Crawl
-VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode
+名前: Discord Rich Presence
+ID: LeonardSSH.vscord
+説明: Highly customizable Discord Rich Presence extension for Visual Studio Code
+バージョン: 5.3.9
+パブリッシャー: leonardssh
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=LeonardSSH.vscord
 
 名前: JSON Path
 ID: weijunyu.vscode-json-path
