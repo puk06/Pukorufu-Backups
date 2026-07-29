@@ -121,9 +121,13 @@ window_behavior:
       shown_on_top: false
 
 workspaces:
+  # Indexは0スタート: 左のモニターから0
   - name: '1'
+    bind_to_monitor: 1 # メイン（真ん中）
   - name: '2'
+    bind_to_monitor: 2 # サブ（右）
   - name: '3'
+    bind_to_monitor: 0 # サブ（左）
   - name: '4'
   - name: '5'
   - name: '6'
