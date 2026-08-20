@@ -2,16 +2,16 @@
 自分がいつもVSCodeで使ってる全ての拡張機能をカテゴリごとに分けました。</br>
 > [!NOTE]
 > 中身はタイトルか説明を見て判断してもらえると助かります（書くのが大変）
-> 
+>
 # 言語
 
 ## C#
-名前: vscode-solution-explorer
-ID: fernandoescolar.vscode-solution-explorer
-説明: Visual Studio .sln file explorer for Visual Studio Code
-バージョン: 0.9.2
-パブリッシャー: Fernando Escolar
-VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer
+名前: C# Dev Tools (C# Dev Kitの代わりにこれ使おうね。神だよ)
+ID: JakubKozera.csharp-dev-tools
+説明: Enhanced development tools for C# and .NET in VS Code
+バージョン: 1.9.11
+パブリッシャー: Jakub Kozera
+VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=JakubKozera.csharp-dev-tools
 
 名前: .NET Install Tool
 ID: ms-dotnettools.vscode-dotnet-runtime
@@ -41,14 +41,14 @@ ID: kreativ-software.csharpextensions
 パブリッシャー: JosKreativ
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions
 
-名前: C# Dev Kit
+名前: C# Dev Kit (普段は無効化してます)
 ID: ms-dotnettools.csdevkit
 説明: Official C# extension from Microsoft
 バージョン: 1.80.7
 パブリッシャー: Microsoft
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
 
-名前: Avalonia for VSCode
+名前: Avalonia for VSCode (普段は無効化してます)
 ID: AvaloniaTeam.vscode-avalonia
 説明: Avalonia support: XAML code completion, live XAML previewer, enhanced errors and warnings, code navigation, code formatting, and much more
 バージョン: 12.1.0
@@ -92,7 +92,7 @@ ID: slevesque.shader
 パブリッシャー: slevesque
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=slevesque.shader
 
-## Python
+## Python (もう既に全て削除済みですが、一応残しておきます)
 名前: Python
 ID: ms-python.python
 説明: Python language support with extension access points for IntelliSense (Pylance), Debugging (Python Debugger), linting, formatting, refactoring, unit tests, and more.
@@ -305,7 +305,7 @@ ID: GitHub.vscode-pull-request-github
 パブリッシャー: GitHub
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
 
-名前: GitLens — Git supercharged
+名前: GitLens — Git supercharged (別に使ってないので消しましたが、便利なので一応残しておきます)
 ID: eamodio.gitlens
 説明: Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations and powerful comparison commands, and so much more
 バージョン: 17.7.1
@@ -314,7 +314,7 @@ VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ea
 
 名前: Lazygit for VSCode
 ID: ChaitanyaShahare.lazygit
-説明: 
+説明: LazyGitをVSCode内で開けるようにするものです。
 バージョン: 1.0.7
 パブリッシャー: Chaitanya Shahare
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ChaitanyaShahare.lazygit
@@ -380,7 +380,7 @@ ID: ms-vscode.remote-explorer
 VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer
 
 # Unity
-名前: Unity
+名前: Unity (普段は無効化してます)
 ID: visualstudiotoolsforunity.vstuc
 説明: Integrates Visual Studio Code with Unity
 バージョン: 1.2.0
