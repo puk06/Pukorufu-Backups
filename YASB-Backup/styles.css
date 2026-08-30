@@ -171,11 +171,27 @@ QToolTip { margin:6px; color: #cdd6f4;font-size:12px; background-color: #12151b;
     padding-right: 4px;
     color: #f9e2af;
 }
+/* Group spacing */
+.cpu-widget .widget-container,
+.gpu-widget .widget-container,
+.memory-widget .widget-container {
+    margin: 0 5px;
+}
+.media-widget {
+    margin-left: 13px;
+}
+.weather-widget {
+    margin: 0 13px;
+}
+.volume-widget,
+.notification-widget {
+    margin: 0 3px;
+}
 /* Weather card style */
 .weather-card {
     background-color:var(--background-color);
 }
- 
+
 .weather-card-today .label {
     font-size: 12px;
 }
@@ -292,4 +308,269 @@ QToolTip { margin:6px; color: #cdd6f4;font-size:12px; background-color: #12151b;
 }
 .notification-widget .label.new-notification {
     color: var(--blue-color)
+}
+/* CPU Widget */
+.cpu-widget .widget-container .icon {
+    font-size: 14px;
+    padding-right: 4px;
+    color: var(--blue-color);
+}
+.cpu-widget .widget-container .label.status-low {
+    color: #a6e3a1;
+}
+.cpu-widget .widget-container .label.status-medium {
+    color: #f9e2af;
+}
+.cpu-widget .widget-container .label.status-high {
+    color: #fab387;
+}
+.cpu-widget .widget-container .label.status-critical {
+    color: #f38ba8;
+}
+.cpu-popup {
+    background-color: var(--background-color);
+    min-width: 400px;
+}
+.cpu-popup .header {
+    background: transparent;
+    padding: 12px 16px;
+    margin: 0;
+}
+.cpu-popup .header .text {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    color: #cdd6f4;
+    margin: 0;
+}
+.cpu-popup .header .pin-btn {
+    font-size: 14px;
+    background: transparent;
+    font-family: 'Segoe Fluent Icons';
+    border: none;
+    padding: 6px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.cpu-popup .header .pin-btn:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+.cpu-popup .header .pin-btn.pinned {
+    color: #ffffff;
+}
+.cpu-popup .graph-container {
+    background: transparent;
+    min-height: 64px;
+    margin: 0 16px;
+}
+.cpu-popup .graph-title {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI';
+    padding: 0;
+    margin: 0 16px 4px 16px;
+}
+.cpu-popup .cpu-graph {
+    color: #89b4fa;
+}
+.cpu-popup .cpu-graph-grid {
+    color: rgba(255, 255, 255, 0.05);
+}
+.cpu-popup .stats .stat-item {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 8px;
+}
+.cpu-popup .stats .stat-label {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    padding: 6px 4px 2px 4px;
+}
+.cpu-popup .stats .stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+    padding: 0 4px 12px 4px;
+}
+/* GPU Widget */
+.gpu-widget .widget-container .icon {
+    font-size: 14px;
+    padding-right: 4px;
+    color: #cba6f7;
+}
+.gpu-widget .widget-container .label.status-low {
+    color: #a6e3a1;
+}
+.gpu-widget .widget-container .label.status-medium {
+    color: #f9e2af;
+}
+.gpu-widget .widget-container .label.status-high {
+    color: #fab387;
+}
+.gpu-widget .widget-container .label.status-critical {
+    color: #f38ba8;
+}
+.gpu-popup {
+    background-color: var(--background-color);
+    min-width: 400px;
+}
+.gpu-popup .header {
+    background: transparent;
+    padding: 12px 16px;
+    margin: 0;
+}
+.gpu-popup .header .text {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    color: #cdd6f4;
+    margin: 0;
+}
+.gpu-popup .header .pin-btn {
+    font-size: 14px;
+    background: transparent;
+    font-family: 'Segoe Fluent Icons';
+    border: none;
+    padding: 6px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.gpu-popup .header .pin-btn:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+.gpu-popup .header .pin-btn.pinned {
+    color: #ffffff;
+}
+.gpu-popup .graph-container {
+    background: transparent;
+    min-height: 64px;
+    margin: 0 16px;
+}
+.gpu-popup .graph-title {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI';
+    padding: 0;
+    margin: 0 16px 4px 16px;
+}
+.gpu-popup .graph-title.first {
+    margin-top: 0;
+}
+.gpu-popup .gpu-graph {
+    color: #89b4fa;
+}
+.gpu-popup .gpu-temp-graph {
+    color: #fab387;
+}
+.gpu-popup .gpu-graph-grid,
+.gpu-popup .gpu-temp-graph-grid {
+    color: rgba(255, 255, 255, 0.05);
+}
+.gpu-popup .stats .stat-item {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 8px;
+}
+.gpu-popup .stats .stat-label {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    padding: 6px 4px 2px 4px;
+}
+.gpu-popup .stats .stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+    padding: 0 4px 12px 4px;
+}
+/* Memory Widget */
+.memory-widget .widget-container .icon {
+    font-size: 14px;
+    padding-right: 4px;
+    color: #a6e3a1;
+}
+.memory-widget .widget-container .label.status-low {
+    color: #a6e3a1;
+}
+.memory-widget .widget-container .label.status-medium {
+    color: #f9e2af;
+}
+.memory-widget .widget-container .label.status-high {
+    color: #fab387;
+}
+.memory-widget .widget-container .label.status-critical {
+    color: #f38ba8;
+}
+.memory-popup {
+    background-color: var(--background-color);
+    min-width: 400px;
+}
+.memory-popup .header {
+    background: transparent;
+    padding: 12px 16px;
+    margin: 0;
+}
+.memory-popup .header .text {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    color: #cdd6f4;
+    margin: 0;
+}
+.memory-popup .header .pin-btn {
+    font-size: 14px;
+    background: transparent;
+    font-family: 'Segoe Fluent Icons';
+    border: none;
+    padding: 6px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.memory-popup .header .pin-btn:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+.memory-popup .header .pin-btn.pinned {
+    color: #ffffff;
+}
+.memory-popup .graph-container {
+    background: transparent;
+    min-height: 64px;
+    margin: 0 16px;
+}
+.memory-popup .graph-title {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI';
+    padding: 0;
+    margin: 0 16px 4px 16px;
+}
+.memory-popup .memory-graph {
+    color: #89b4fa;
+}
+.memory-popup .memory-graph-grid {
+    color: rgba(255, 255, 255, 0.05);
+}
+.memory-popup .stats .stat-item {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 8px;
+}
+.memory-popup .stats .stat-label {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    padding: 6px 4px 2px 4px;
+}
+.memory-popup .stats .stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+    padding: 0 4px 12px 4px;
 }
