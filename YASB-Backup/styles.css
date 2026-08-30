@@ -206,13 +206,6 @@ QToolTip { margin:6px; color: #cdd6f4;font-size:12px; background-color: #12151b;
 .media-widget {
     margin-left: 13px;
 }
-.weather-widget {
-    margin: 0 13px;
-}
-.volume-widget,
-.notification-widget {
-    margin: 0 3px;
-}
 /* Weather card style */
 .weather-card {
     background-color:var(--background-color);
